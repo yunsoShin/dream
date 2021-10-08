@@ -14,6 +14,7 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  /*Universal tags */
 
   /* Font size */
   --font-large: 48px;
@@ -56,4 +57,11 @@ p {
   font-weight: var(--weight-regular);
   color: var(--color-black);
   margin: 4px 0;
+}
+
+/*Navbar*/
+#navbar {
+  display: flex;
+  justify-content: sp;
+  background-color: var(--color-pink);
 }
