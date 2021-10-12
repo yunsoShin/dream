@@ -4,8 +4,7 @@
 const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
 document.addEventListener('scroll',()=>{
-  console.log(window.scrollY);
-  console.log(`heigth: ${navbarHeight}`);
+
   if(window.scrollY > navbarHeight)
   {
     navbar.classList.add('navbar--dark')
@@ -14,7 +13,6 @@ document.addEventListener('scroll',()=>{
     navbar.classList.remove('navbar--dark')
   }
 })
-
 //Handle scrolling when trapping on the navbar
 const navbarMenu = document.querySelector('.navbar__menu');
 
@@ -27,13 +25,36 @@ navbarMenu.addEventListener('click',(event)=>{
   }
 
   console.log(event.target.dataset.link);
-  scrollIntoView(link)
+  scrollIntoView(link);
 });
 
 const ContactMe =document.querySelector('.home__container');
 ContactMe.addEventListener('click',()=>{
-  scrollIntoView('#Contact')
+  scrollIntoView('#Contact');
 });
+
+
+//transparent as the window scroll down
+const home = document.querySelector('#home')
+const homeheight = home.getBoundingClientRect().height;
+document.addEventListener('scroll',()=>{
+  console.log(window.scrollY);
+  console.log(`heigth: ${homeheight}`);
+  console.log(1-window.scrollY/homeheight);
+  
+    home.style.opacity = 1-window.scrollY/homeheight;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 function scrollIntoView(selector){
   const scrollTo = document.querySelector(selector);
