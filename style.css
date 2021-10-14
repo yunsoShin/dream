@@ -395,3 +395,22 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
+.contact__links {
+  color: blanchedalmo;
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-black);
+}
+#contact {
+  background-color: var(--color-black);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: gray;
+}
