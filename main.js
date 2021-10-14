@@ -23,7 +23,7 @@ navbarMenu.addEventListener('click',(event)=>{
   if(link==null){
     return;
   }
-
+  navbarMenu.classList.remove('open');
   console.log(event.target.dataset.link);
   scrollIntoView(link);
 });
@@ -35,17 +35,26 @@ ContactMe.addEventListener('click',()=>{
 
 
 //transparent as the window scroll down
-const home = document.querySelector('#home')
-const homeheight = home.getBoundingClientRect().height;
-document.addEventListener('scroll',()=>{
-  console.log(window.scrollY);
-  console.log(`heigth: ${homeheight}`);
-  console.log(1-window.scrollY/homeheight);
-  
-    home.style.opacity = 1-window.scrollY/homeheight;
-}
+const home = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll', () => {
+  home.style.opacity = 1 - window.scrollY / homeHeight;
+});
 
+// Show "arrow up" button when scrolling down
+const arrowUp = document.querySelector('.arrow-up');
+document.addEventListener('scroll', () => {
+  if (window.scrollY > homeHeight / 2) {
+    arrowUp.classList.add('visible');
+  } else {
+    arrowUp.classList.remove('visible');
+  }
+});
 
+// Handle click on the "arrow up" button
+arrowUp.addEventListener('click', () => {
+  scrollIntoView('#home');
+});
 
 
 
