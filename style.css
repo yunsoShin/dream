@@ -140,7 +140,8 @@ p {
 
 #home {
   padding-top: 100px;
-  background: url("imgs/bgp1.jpg") center/cover no-repeat;
+  background: url("imgs/layered-waves-haikei.svg") center/cover no-repeat;
+
   padding: 40px;
   text-align: center;
 }
@@ -227,9 +228,16 @@ p {
 
 /*Skill*/
 
-#skills {
-  background-color: var(--color-yellow);
+#Skills {
+  background: rgb(75, 68, 83);
+  background: linear-gradient(
+    56deg,
+    rgba(75, 68, 83, 1) 0%,
+    rgba(129, 90, 114, 1) 49%,
+    rgba(189, 113, 125, 1) 100%
+  );
 }
+
 .skillset {
   margin: 20px 0;
   color: var(--color-white);
@@ -395,6 +403,26 @@ p {
   opacity: 1;
   pointer-events: auto;
 }
+.custom-shape-divider-top-1634847139 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1634847139 svg {
+  position: relative;
+  display: block;
+  width: calc(123% + 1.3px);
+  height: 204px;
+}
+
+.custom-shape-divider-top-1634847139 .shape-fill {
+  fill: #ff8066;
+}
+
 .contact__links {
   color: blanchedalmo;
   font-size: var(--font-large);
