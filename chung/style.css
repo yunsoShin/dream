@@ -19,6 +19,7 @@
   --font-medium: 28px;
   --font-regular: 18px;
   --font-small: 16px;
+  --font-micro: 14px;
 
   /* Size */
   --size-border-radius: 4px;
@@ -109,4 +110,25 @@ p {
 
 .custom-shape-divider-bottom-1647519737 .shape-fill {
   fill: #3f4457;
+}
+
+.navbar__logo {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+  color: var(--color-white);
+  cursor: pointer;
+  border-radius: var(--size-border-radius);
+}
+.navbar__menu__item.active {
+  border-radius: var(--size-border-radius);
+}
+.navbar__menu__item:hover {
+  background-color: var(--color-dark-white);
 }
