@@ -145,21 +145,38 @@
   }
   .home__title{
     padding-top: 175px;
+    padding-bottom: 50px;
     color: #fff;
     font-size: 36px;
     line-height: 50px;
     text-align: center;
     font-weight: 300;
     letter-spacing: 1.5px;
+
   }
 
 
 
   .About{
-    text-align: center;
-    color: white;
+    background-color:black;
     display: flex;
+    justify-content: space-between;
+    margin: 200px 0;  
+    width: 100%;
+    background-size: cover;
   }
+  .About__majors{
+  }
+ .major__title{
+     color: white;
+
+ }
+ .major__subtitle{
+     color: white;
+ }
+ .major__eng-p{
+     color: white;
+ }
       
   
 
