@@ -158,35 +158,52 @@
 
 
   .About{
-    background-color:black;
+    background-color:var(--color-dark-grey);
     display: flex;
     justify-content: space-between;
-    height: 420px;
+    height: 529px;
     width: 100%;
-    background-size: cover;
-    background: url(./img/tilt.svg);
+    background: url(./img/main_img_cover\ \(1\).png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
   }
+
   
 .major{
-    margin-top: 160px;
-    padding: 20px;
+    margin-top: 300px;
     width: 25%;
     position: relative;
 }
+.major__icon{
+    margin-bottom: 20px;
+    
+}
+.major__subtitle{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.major__eng-p{
+    font-size: 15px;
+}
 
-  
  .major__title{
-     
+     margin-bottom: 40px;
      color: white;
 
  }
  .major__subtitle{
+    
      color: white;
  }
  .major__eng-p{
+     
+     translate: trans;
      color: white;
      margin-top: 20px;
  }
+
 
  
       
