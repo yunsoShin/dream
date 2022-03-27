@@ -100,9 +100,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: transparent;
-    z-index: 1;
-    height: 100px;
+    
+    z-index: 10;
+    height: 85px;
+
   }
   
   .navbar__toggle-btn {
@@ -204,7 +205,19 @@
      margin-top: 20px;
  }
 
+ .product{
+     width: 100%;
+     margin: 0 auto;
+     position: relative;
 
+ }
+ .product__title{
+     margin-top: 90px;
+     text-align: center;
+     font-size: 24px;
+     font-weight: 700;
+     margin-bottom: 60px;
+ }
  
       
   
