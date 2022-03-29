@@ -1,249 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/d077334562.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>청북베어링상사</title>
-</head>
-
-<body>
-  <nav id="navbar">
-    <div class="navbar__logo">
-      <img src="img/로고2.png" class="navbar__logo" alt="Company__logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>청북베어링상사</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Ellie"
+    />
+    <meta name="author" content="Ellie" />
+    <link rel="icon" type="image/png" href="img/title-logo2.png" />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <img src="img/로고2.png" class="navbar__logo" alt="Company__logo">
       <a href="#"></a>
-    </div>
-    <div class="navbar__menu">
-      <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">Home</li>
-        <li class="navbar__menu__item" data-link="#About">제품소개</li>
-        <li class="navbar__menu__item" data-link="#Skills">온라인문의</li>
-      </ul>
-    </div>
-    <button class="navbar__toggle-btn">
-      <i class="fas fa-bars"></i>
-    </button>
-  </nav>
-  
 
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">home</li>
+        <li class="navbar__menu__item" data-link="#about">제품소개</li>
+        <li class="navbar__menu__item" data-link="#skills">온라인문의</li>
+        <li class="navbar__menu__item" data-link="#work">My work</li>
+        <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
     <section id="home">
       <div class="home__container">
-        <p class="home__title">보다 나은 서비스, 최상의 품질을 제공함으로써<br />
-          정직하고 신뢰받는<br />
-          <strong>청북베어링상사</strong>가 되겠습니다.<br />
+         
+        <p class="home__title">보다 나은 서비스, 최상의 품질을 제공함으로써 <br />정직하고 신뢰받는</p>
+        <p class="home__description">
+          <strong>청북베어링상사</strong>가 되겠습니다.
         </p>
       </div>
-      <div id="About" class="About">
-        <div class="major">
-          <p class="major__title">산업용 기계부품 수입판매</p>
-          
-          <div class="major__icon">
-            <img src="./img/main_icon1.png" alt="gear"
-            class="major__icon">
-          </div>
-          <div class="major__eng">
-            <p class="major__eng-p">
-              INDUSTRIAL <br>
-              COMPONENT IMPORT
-            </p>
-          </div>
-        </div>
-        <div class="major">
-            <p class="major__title">자동화 부품 솔루션 제공</p>
-  
+      <section id="about" class="section section__container">
+        <div class="about__majors">
+          <div class="major">
+            <h2 class="major__title">산업용 기계부품 수입판매</h2>
             <div class="major__icon">
-              <img src="./img/main_icon2.png" alt="2"
-              class="major__icon">
+              <img src="./img/main_icon1.png" alt="gear">
             </div>
-  
-            <div class="major__eng">
-              <p class="major__eng-p">
-                SOLUTION FOR<br>
-                FACTORY AUTOMATION
-              </p>
+            <div class="major__description">
+              INDUSTRIAL
+              <br />COMPONENT IMPORT
             </div>
-        </div>
-        <div class="major">
-            <p class="major__title">불용재고 수출대행</p>
-  
-            <div class="major__icon">
-              <img src="./img/main_icon3.png" alt="3"
-              class="major__icon">
-            </div>
-  
-            <div class="major__eng">
-              <p class="major__eng-p">
-                EXPORT AGENT
-              </p>
-            </div>
-        </div>
-        <div class="major">
-            <p class="major__title">구매 대행</p>
-  
-            <div class="major__icon">
-              <img src="./img/main_icon4.png" alt="4"
-              class="major__icon">
-            </div>
-  
-            <div class="major__eng">
-              <p class="major__eng-p">
-                PURCHASING AGENT
-              </p>
-            </div>
-        </div>
-  
-      </div>
-      
-    </section>
-
-
-    
-    
-    
-
-
-    <section class="product">
-      <p class="product__title">제품소개</p>
-      <div class="product__contents">
-        <div class="top__leftside">
-          <div class="intro">
-            <p>"청북베어링상사의"
-            <br>
-            "제품을 소개합니다"
-            <br>
-            </p>
           </div>
+          <div class="major">
+            <h2 class="major__title">산업용 기계부품 수입판매</h2>
+            <div class="major__icon">
+              <img src="./img/main_icon2.png" alt="2">
+            </div>
             
-        </div>
-        <div class="ipc_top_center"><!-- 2*3 -->
-          <div class="ipc_black ipc_1 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0301.php" class="a_cover"></a>
-            <p class="ipc_title">베어링</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="">
+            <p class="major__description">
+              SOLUTION FOR
+              <br />FACTORY AUTOMATION
+            </p>
           </div>
-          <div class="ipc_white ipc_2 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0302.php" class="a_cover"></a>
-            <p class="ipc_title">LM가이드</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_black.png" alt="" class="arrow">
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="" class="hidden_arrow">
+          <div class="major">
+            <h2 class="major__title">산업용 기계부품 수입판매</h2>
+            <div class="major__icon">
+              <img src="./img/main_icon3.png" alt="3">
+            </div>
+           
+            <p class="major__description">
+              EXPORT AGENT
+            </p>
           </div>
-          <div class="ipc_white ipc_3 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0305.php" class="a_cover"></a>
-            <p class="ipc_title">서포트유니트</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_black.png" alt="" class="arrow">
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="" class="hidden_arrow">
-          </div>
-          <div class="ipc_black ipc_4 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0307.php" class="a_cover"></a>
-            <p class="ipc_title">파워로크</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="">
-          </div>
-          <div class="ipc_black ipc_5 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0303.php" class="a_cover"></a>
-            <p class="ipc_title">볼스크류</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="">
-          </div>
-          <div class="ipc_white ipc_6 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0306.php" class="a_cover"></a>
-            <p class="ipc_title">로크너트</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_black.png" alt="" class="arrow">
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="" class="hidden_arrow">
+          <div class="major">
+            <h2 class="major__title">산업용 기계부품 수입판매</h2>
+            <div class="major__icon">
+              <img src="./img/main_icon4.png" alt="4">
+            </div>
+            
+            <p class="major__description">
+              PURCHASING AGENT
+            </p>
           </div>
         </div>
-        <div class="ipc_top_rightside">
-          <div rowspan="2" class="ipc_call">
-            <p>02) 2637-3437</p>
-            <p>문의사항 있으시면<br>언제든지 물어보세요!</p>
-          </div>
-        </div>
-        <div class="ipc_btm">
-          <div class="ipc_white ipc_7 ipc_item border_right">
-            <a href="http://cbbearing.co.kr/sub/sub0308.php" class="a_cover"></a>
-            <p class="ipc_title">스페리컬플레인</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_black.png" alt="" class="arrow">
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="" class="hidden_arrow">
-          </div>
-          <div class="ipc_white ipc_8 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0304.php" class="a_cover"></a>
-            <p class="ipc_title">씰링</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_black.png" alt="" class="arrow">
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="" class="hidden_arrow">
-          </div>
-          <div class="ipc_etc ipc_9 ipc_item">
-            <a href="http://cbbearing.co.kr/sub/sub0309.php" class="a_cover"></a>
-            <p class="ipc_title">기타</p>
-            <p class="ipc_more">자세히보기</p>
-            <img src="http://cbbearing.co.kr/theme/basic/img/main_product_arrow_white.png" alt="">
-          </div>
-        </div>
-
-      </div>
-      
-
+      </section>
     </section>
 
-    <div class="inner" id="online_question">
-      <p class="index_title">온라인문의</p>
-      <div class="oq_contents clearfix">
-        <div class="oqc_left">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.3084013027596!2d126.87608934029521!3d37.50064376514793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e0d48acba47%3A0x17a5f69a2a89d439!2z7ISc7Jq47Yq567OE7IucIOq1rOuhnOq1rCDqtazroZzrj5kg6rK97J2466GcNTTquLggNA!5e0!3m2!1sko!2skr!4v1585199542802!5m2!1sko!2skr" height="260" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="oqc_right">
-          <ul class="clearfix">
-            <li class="oq_info oq_time">업무시간 : 09 : 00 - 18 : 00</li>
-            <li class="oq_info oq_email">이메일 : cbtcshin@naver.com</li>
-            <li class="oq_info oq_address">주소 : 서울시 구로구 경인로 54길 4 일번지공구상가 J동105호</li>
-            <li class="oq_info_half oq_tel">전화번호 : 02-2637-3437</li>
-            <li class="oq_info_half oq_fax">팩스번호 : 02-2637-3439</li>
-          </ul>
-          <a href="http://cbbearing.co.kr/bbs/board.php?bo_table=online" class="oq_go">지금 문의하기</a>
+    <!-- About -->
+   
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Experience with all phases of the software life-cycle. Passion for
+          learning new technologies. Capable of working within a team environment
+          and independently. Ability to plan and time schedule, work under strict
+          time pressure and adapt quickly when needed.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 99%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>TypeScript</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React</span>
+                <span>88%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 88%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>NodeJS</span>
+                <span>77%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 77%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>IntelliJ</span></li>
+                <li><span>Android Studio Code</span></li>
+                <li><span>iOS development tools</span></li>
+                <li><span>Sketch app</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>Scrum master</span></li>
+                <li><span>Math</span></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+     <div class="section__container">
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">8</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="back-end">
+          Back-end <span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="mobile">
+          Mobile <span class="category__count">2</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="" class="project" target="blank" data-type="front-end">
+          <img
+            src="imgs/projects/youtube.png"
+            alt="Youtube"
+            class="project__img"
+          />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with HTML, CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dream-ellie/responsive-nav-bar"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img
+            class="project__img"
+            src="imgs/projects/navbar.png"
+            alt="navbar"
+          />
+          <div class="project__description">
+            <h3>Responsive Navbar</h3>
+            <span>HTML, CSS with media query</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/dream-ellie/responsive-nav-bar"
+          class="project"
+          data-type="front-end"
+          target="blank"
+        >
+          <img class="project__img" src="imgs/projects/game.png" alt="navbar" />
+          <div class="project__description">
+            <h3>Shopping mall game</h3>
+            <span>HTML, CSS, JavaScript, Json</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="back-end">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+        <a href="" class="project" data-type="mobile">
+          <img class="project__img" src="imgs/projects/game.png" alt="" />
+          <div class="project__description">
+            <h3>Project</h3>
+            <span>Explanation</span>
+          </div>
+        </a>
+      </div>
+     </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+   <div class="section__container">
+    <h1>Testimonials</h1>
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img
+          src="imgs/testimonial/people1.jpg"
+          alt="People"
+          class="testimonial__avatar"
+        />
+        <div class="testimonial__speech-bubble">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            fuga libero nulla eveniet aperiam laborum, quis provident
+            quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+            explicabo tempora, dignissimos accusantium inventore ducimus!
+          </p>
+          <p class="name"><a href="">Ellie</a> / Samsung</p>
         </div>
       </div>
-    </div>
-
-
-    <div id="footer">
-	
-      <div class="ft_btm">
-        <div class="inner clearfix">
-          <img src="http://cbbearing.co.kr/theme/basic/img/ft_logo.png" alt="" class="ft_logo">
-          <ul class="ft_btm_info clearfix">
-            <li>업체명 : 청북베어링상사&nbsp;&nbsp;&nbsp;ㅣ&nbsp;&nbsp;&nbsp;</li>
-            <li>대표자 : 신문호&nbsp;&nbsp;&nbsp;ㅣ&nbsp;&nbsp;&nbsp;</li>
-            <li>사업자등록번호 : 113-22-77845</li>
-            <li class="clear">대표번호 : 02-2637-3437&nbsp;&nbsp;&nbsp;ㅣ&nbsp;&nbsp;&nbsp;</li>
-            <li>FAX : 02-2637-3439</li>
-            <li class="clear">본 사 : 서울시 구로구 경인로54길 4 일번지공구상가 J동 105호</li>
-            <li class="clear">평택지점 : 경기도 평택시 청북면 청북중앙로 45</li>
-            <li class="clear">이메일 : cbtcshin@naver.com&nbsp;&nbsp;&nbsp;ㅣ&nbsp;&nbsp;&nbsp;</li>
-            <li>업무시간 : 09:00~18:00</li>
-            <li class="clear copy">Copyright © 청북베어링상사 All Rights Reserved.</li>
-          </ul>
-          <ul class="ft_btm_info clearfix ft_btm_info_mb">
-            <li>업체명 : 청북베어링상사 ㅣ 대표자 : 신문호</li><br>
-            <li>사업자등록번호 : 113-22-77845</li><br>
-            <li>대표번호 : 02-2637-3437</li><br>
-            <li>FAX : 02-2637-3439</li><br>
-            <li>본 사 : 서울시 구로구 경인로54길 4 일번지공구상가 J동 105호</li><br>
-            <li>평택지점 : 경기도 평택시 청북면 청북중앙로 45</li><br>
-            <li>이메일 : cbtcshin@naver.com</li><br>
-            <li>업무시간 : 09:00~18:00</li><br>
-            <li>Copyright © 청북베어링상사 All Rights Reserved.</li>
-          </ul>
+      <div class="testimonial">
+        <div class="testimonial__speech-bubble">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            fuga libero nulla eveniet aperiam laborum, quis provident
+            quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+            explicabo tempora, dignissimos accusantium inventore ducimus!
+          </p>
+          <p class="name"><a href="">Ellie</a> / Samsung</p>
         </div>
+        <img
+        src="imgs/testimonial/people1.jpg"
+        alt="People"
+        class="testimonial__avatar"
+      />
       </div>
     </div>
+   </div>
+    </section>
 
-</body>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">dream.coder.ellie@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/dream-ellie" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+      </div>
+      <p class="contact__rights">
+        2020 Dream Coding Ellie - All rights reserved
+      </p>
+    </section>
 
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
 </html>
