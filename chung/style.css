@@ -550,12 +550,12 @@ p {
   }
 
   .about__majors {
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    
+    display: none;
   }
 
   .major {
+    
     margin-bottom: 30px;
   }
 
