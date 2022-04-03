@@ -114,7 +114,7 @@ p {
 }
 
 .navbar__logo {
-  height: 85px;
+  height: 80px;
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: white;
@@ -140,6 +140,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
+  height: 80px;
   top: 24px;
   right: 32px;
   font-size: 24px;
@@ -160,7 +161,10 @@ p {
 .home__description {
   color: var(--color-white);
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 32px;
+}
+.home__title{
+  padding-top: 150px;
 }
 .home__container {
   margin-bottom: 100px;
@@ -187,6 +191,7 @@ p {
   width: 100%;
   background: url(./img/main_img_cover.png);
   position: absolute;
+  transform: translate(0px,-160px);
   bottom: 10;
   left: 0;
 }
@@ -366,7 +371,7 @@ p {
   width: 280px;
   height: 250px;
   margin: 2px;
-  background-color: var(--color-light-white);
+  background-color: white;
 }
 
 .project.invisible {
@@ -421,40 +426,37 @@ p {
 }
 
 .testimonials {
+  width: 100%;
   margin: 40px;
+  
 }
 
 .testimonial {
+  
   display: flex;
   margin: 32px 0;
 }
 
-.testimonial__avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
 
-.testimonial__avatar:nth-child(odd) {
-  margin-right: 40px;
-}
 
-.testimonial__avatar:nth-child(even) {
-  margin-left: 40px;
-}
 
 .testimonial__speech-bubble {
+  width: 60%;
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
 .testimonial__speech-bubble p {
+
   color: var(--color-light-grey);
 }
 
 .testimonial__speech-bubble a {
   color: var(--color-pink);
+}
+.clearfix{
+  line-height: 150%;
 }
 
 /* Contact */
@@ -525,7 +527,7 @@ p {
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color: white;
   }
 
   #navbar.navbar--dark {
@@ -548,12 +550,12 @@ p {
   }
 
   .about__majors {
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    
+    display: none;
   }
 
   .major {
+    
     margin-bottom: 30px;
   }
 
@@ -588,7 +590,7 @@ p {
 
   .testimonial__speech-bubble {
     order: 1;
-  }
+  }   
 
   .arrow-up {
     width: 50px;
