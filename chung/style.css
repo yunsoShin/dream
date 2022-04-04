@@ -184,6 +184,7 @@ p {
 /* About */
 
 .about__majors {
+  
   background-color: var(--color-dark-grey);
   display: flex;
   justify-content: space-between;
@@ -349,8 +350,13 @@ p {
   opacity: 0;
   transition: all var(--animation-duration) ease-in;
 }
+.product{
+  margin-top: 220px;
+  margin-bottom: 20px;
+}
 
 .work__projects {
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -441,7 +447,7 @@ p {
 
 
 .testimonial__speech-bubble {
-  width: 60%;
+  width: 100%;
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
@@ -494,7 +500,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-pink);
+  background-color: gainsboro;
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
