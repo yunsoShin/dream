@@ -435,12 +435,15 @@ p {
   width: 100%;
   margin: 40px;
   
+  
 }
 
+
 .testimonial {
-  
+  width: 100%;
   display: flex;
   margin: 32px 0;
+  height: 300px;
 }
 
 
