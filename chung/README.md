@@ -1,2 +1,0 @@
-# portfolio
- yunsoo's portfolio
